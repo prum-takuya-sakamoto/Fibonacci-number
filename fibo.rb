@@ -1,4 +1,4 @@
-def fib (num)
+def fib num
   n = 0
   m = 1
 
