@@ -10,8 +10,3 @@ def fib (num)
 
   return n
 end
-
-(0..300).each do |i|
-  num = i
-  puts fib(i)
-end
