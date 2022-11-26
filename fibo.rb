@@ -1,3 +1,17 @@
-def fib num
+def fib (num)
+  n = 0
+  m = 1
 
+  num.times do
+    temp = n
+    n = m
+    m = temp + m
+  end
+
+  return n
+end
+
+(0..300).each do |i|
+  num = i
+  puts fib(i)
 end
